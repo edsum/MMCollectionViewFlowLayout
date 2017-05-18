@@ -1,11 +1,12 @@
 # MMCollectionViewFlowLayout
 一个针对多种业务需求的**UICollectionView** 。
-当您从一个项目滚动到另一个项目时，**UICollectionView**没有转换效果。 有很多方法可以为**UICollectionView**编写动画，但使用**UICollectionViewLayout**子类是最简单的一个。 它不会破坏你现有的任何代码。
+当您从一个项目滚动到另一个项目时，**UICollectionView**没有转换效果。 有很多方法可以为**UICollectionView**编写动画，但使用**UICollectionViewLayout**子类是最简单的一个。 
+
+ - ![Parallax](http://img.blog.csdn.net/20170518220642054?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![Cards](http://img.blog.csdn.net/20170518220941102?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![CrossFade](http://img.blog.csdn.net/20170518221001128?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)   ![Cube](http://img.blog.csdn.net/20170518221027300?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![Page](http://img.blog.csdn.net/20170518221053520?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![RotateInOut](http://img.blog.csdn.net/20170518221110744?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![ZoomInOut](http://img.blog.csdn.net/20170518221132005?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 # 使用方法
 * 下载项目到本地：方式一：
 	终端输入： $ git clone https://github.com/edsum/MMCollectionViewFlowLayout
-  
 	方式二： 如下图
 	![这里写图片描述](http://img.blog.csdn.net/20170518145034096?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDc5NTAyMA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
