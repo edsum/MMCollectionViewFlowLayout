@@ -8,8 +8,12 @@
 
 import UIKit
 
+
+/// 视差效果
 public struct ParallaxAttributesTransition: MMLayoutProtocol {
     
+    /// 速度越高，视差越明显
+    /// 建议在[0, 1]中，0 表示无视差，默认是0.5
     public var speed: CGFloat
     
     public init(speed: CGFloat = 0.5) {

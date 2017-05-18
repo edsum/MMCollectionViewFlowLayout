@@ -9,41 +9,45 @@
 /* Begin PBXBuildFile section */
 		0E1276A31ECCC257000BEC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276A21ECCC257000BEC68 /* AppDelegate.swift */; };
 		0E1276A51ECCC257000BEC68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276A41ECCC257000BEC68 /* ViewController.swift */; };
-		0E1276A81ECCC257000BEC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1276A61ECCC257000BEC68 /* Main.storyboard */; };
 		0E1276AA1ECCC257000BEC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1276A91ECCC257000BEC68 /* Assets.xcassets */; };
 		0E1276AD1ECCC257000BEC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1276AB1ECCC257000BEC68 /* LaunchScreen.storyboard */; };
-		0E1276B81ECCC2C9000BEC68 /* MMLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276B71ECCC2C9000BEC68 /* MMLayoutProtocol.swift */; };
-		0E1276BA1ECCC332000BEC68 /* MMCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276B91ECCC332000BEC68 /* MMCollectionViewFlowLayout.swift */; };
-		0E1276BC1ECCC406000BEC68 /* MMCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276BB1ECCC406000BEC68 /* MMCollectionViewLayoutAttributes.swift */; };
-		0E1276C11ECCCA31000BEC68 /* ParallaxAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276C01ECCCA31000BEC68 /* ParallaxAttributesTransition.swift */; };
-		0E1276C31ECCCA5E000BEC68 /* ZoomInOutAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276C21ECCCA5E000BEC68 /* ZoomInOutAttributesTransition.swift */; };
-		0E1276C51ECCCA6B000BEC68 /* RotateInOutAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276C41ECCCA6B000BEC68 /* RotateInOutAttributesTransition.swift */; };
-		0E1276C71ECCCA81000BEC68 /* LinearCardAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276C61ECCCA81000BEC68 /* LinearCardAttributesTransition.swift */; };
-		0E1276C91ECCCA8D000BEC68 /* CubeAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276C81ECCCA8D000BEC68 /* CubeAttributesTransition.swift */; };
-		0E1276CB1ECCCA9A000BEC68 /* CrossFadeAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276CA1ECCCA9A000BEC68 /* CrossFadeAttributesTransition.swift */; };
-		0E1276CD1ECCCAA8000BEC68 /* TurnAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276CC1ECCCAA8000BEC68 /* TurnAttributesTransition.swift */; };
-		0E1276CF1ECCCAB2000BEC68 /* PageAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1276CE1ECCCAB2000BEC68 /* PageAttributesTransition.swift */; };
+		0E2BF1B11ECD674000FA6C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2BF1B01ECD674000FA6C58 /* Main.storyboard */; };
+		0E2BF1B51ECD67AD00FA6C58 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1B41ECD67AD00FA6C58 /* ImageCollectionViewController.swift */; };
+		0E2BF1EA1ECD704E00FA6C58 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1E91ECD704E00FA6C58 /* UIView+Anchor.swift */; };
+		0E2BF1EC1ECD722800FA6C58 /* MMLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1EB1ECD722800FA6C58 /* MMLayoutProtocol.swift */; };
+		0E2BF1EF1ECD723100FA6C58 /* MMCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1ED1ECD723100FA6C58 /* MMCollectionViewFlowLayout.swift */; };
+		0E2BF1F01ECD723100FA6C58 /* MMCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1EE1ECD723100FA6C58 /* MMCollectionViewLayoutAttributes.swift */; };
+		0E2BF1F31ECD725800FA6C58 /* ParallaxAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1F21ECD725800FA6C58 /* ParallaxAttributesTransition.swift */; };
+		0E2BF1F51ECD726400FA6C58 /* ZoomInOutAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1F41ECD726400FA6C58 /* ZoomInOutAttributesTransition.swift */; };
+		0E2BF1F71ECD727400FA6C58 /* RotateInOutAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1F61ECD727400FA6C58 /* RotateInOutAttributesTransition.swift */; };
+		0E2BF1F91ECD728500FA6C58 /* LinearCardAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1F81ECD728500FA6C58 /* LinearCardAttributesTransition.swift */; };
+		0E2BF1FB1ECD729000FA6C58 /* CubeAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1FA1ECD729000FA6C58 /* CubeAttributesTransition.swift */; };
+		0E2BF1FD1ECD729A00FA6C58 /* CrossFadeAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1FC1ECD729A00FA6C58 /* CrossFadeAttributesTransition.swift */; };
+		0E2BF1FF1ECD72B200FA6C58 /* TurnAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF1FE1ECD72B200FA6C58 /* TurnAttributesTransition.swift */; };
+		0E2BF2011ECD72C200FA6C58 /* PageAttributesTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BF2001ECD72C200FA6C58 /* PageAttributesTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E12769F1ECCC257000BEC68 /* MMCollectionViewFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMCollectionViewFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1276A21ECCC257000BEC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E1276A41ECCC257000BEC68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0E1276A71ECCC257000BEC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E1276A91ECCC257000BEC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E1276AC1ECCC257000BEC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E1276AE1ECCC257000BEC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E1276B71ECCC2C9000BEC68 /* MMLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMLayoutProtocol.swift; sourceTree = "<group>"; };
-		0E1276B91ECCC332000BEC68 /* MMCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
-		0E1276BB1ECCC406000BEC68 /* MMCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
-		0E1276C01ECCCA31000BEC68 /* ParallaxAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxAttributesTransition.swift; sourceTree = "<group>"; };
-		0E1276C21ECCCA5E000BEC68 /* ZoomInOutAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomInOutAttributesTransition.swift; sourceTree = "<group>"; };
-		0E1276C41ECCCA6B000BEC68 /* RotateInOutAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateInOutAttributesTransition.swift; sourceTree = "<group>"; };
-		0E1276C61ECCCA81000BEC68 /* LinearCardAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearCardAttributesTransition.swift; sourceTree = "<group>"; };
-		0E1276C81ECCCA8D000BEC68 /* CubeAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeAttributesTransition.swift; sourceTree = "<group>"; };
-		0E1276CA1ECCCA9A000BEC68 /* CrossFadeAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossFadeAttributesTransition.swift; sourceTree = "<group>"; };
-		0E1276CC1ECCCAA8000BEC68 /* TurnAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnAttributesTransition.swift; sourceTree = "<group>"; };
-		0E1276CE1ECCCAB2000BEC68 /* PageAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF1B01ECD674000FA6C58 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0E2BF1B41ECD67AD00FA6C58 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		0E2BF1E91ECD704E00FA6C58 /* UIView+Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchor.swift"; sourceTree = "<group>"; };
+		0E2BF1EB1ECD722800FA6C58 /* MMLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMLayoutProtocol.swift; sourceTree = "<group>"; };
+		0E2BF1ED1ECD723100FA6C58 /* MMCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		0E2BF1EE1ECD723100FA6C58 /* MMCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		0E2BF1F21ECD725800FA6C58 /* ParallaxAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF1F41ECD726400FA6C58 /* ZoomInOutAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomInOutAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF1F61ECD727400FA6C58 /* RotateInOutAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateInOutAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF1F81ECD728500FA6C58 /* LinearCardAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearCardAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF1FA1ECD729000FA6C58 /* CubeAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF1FC1ECD729A00FA6C58 /* CrossFadeAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossFadeAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF1FE1ECD72B200FA6C58 /* TurnAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnAttributesTransition.swift; sourceTree = "<group>"; };
+		0E2BF2001ECD72C200FA6C58 /* PageAttributesTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageAttributesTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +80,11 @@
 		0E1276A11ECCC257000BEC68 /* MMCollectionViewFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				0E1276B41ECCC280000BEC68 /* MMCollectionViewFlowLayout */,
+				0E2BF1E51ECD6FF500FA6C58 /* MMCollectionViewFlowLayout */,
 				0E1276A21ECCC257000BEC68 /* AppDelegate.swift */,
 				0E1276A41ECCC257000BEC68 /* ViewController.swift */,
-				0E1276A61ECCC257000BEC68 /* Main.storyboard */,
+				0E2BF1B41ECD67AD00FA6C58 /* ImageCollectionViewController.swift */,
+				0E2BF1B01ECD674000FA6C58 /* Main.storyboard */,
 				0E1276A91ECCC257000BEC68 /* Assets.xcassets */,
 				0E1276AB1ECCC257000BEC68 /* LaunchScreen.storyboard */,
 				0E1276AE1ECCC257000BEC68 /* Info.plist */,
@@ -87,30 +92,31 @@
 			path = MMCollectionViewFlowLayout;
 			sourceTree = "<group>";
 		};
-		0E1276B41ECCC280000BEC68 /* MMCollectionViewFlowLayout */ = {
+		0E2BF1E51ECD6FF500FA6C58 /* MMCollectionViewFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				0E1276BD1ECCC8E0000BEC68 /* Transitions */,
-				0E1276B71ECCC2C9000BEC68 /* MMLayoutProtocol.swift */,
-				0E1276B91ECCC332000BEC68 /* MMCollectionViewFlowLayout.swift */,
-				0E1276BB1ECCC406000BEC68 /* MMCollectionViewLayoutAttributes.swift */,
+				0E2BF1F11ECD724100FA6C58 /* Transition */,
+				0E2BF1EB1ECD722800FA6C58 /* MMLayoutProtocol.swift */,
+				0E2BF1ED1ECD723100FA6C58 /* MMCollectionViewFlowLayout.swift */,
+				0E2BF1EE1ECD723100FA6C58 /* MMCollectionViewLayoutAttributes.swift */,
+				0E2BF1E91ECD704E00FA6C58 /* UIView+Anchor.swift */,
 			);
 			path = MMCollectionViewFlowLayout;
 			sourceTree = "<group>";
 		};
-		0E1276BD1ECCC8E0000BEC68 /* Transitions */ = {
+		0E2BF1F11ECD724100FA6C58 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
-				0E1276C01ECCCA31000BEC68 /* ParallaxAttributesTransition.swift */,
-				0E1276C21ECCCA5E000BEC68 /* ZoomInOutAttributesTransition.swift */,
-				0E1276C41ECCCA6B000BEC68 /* RotateInOutAttributesTransition.swift */,
-				0E1276C61ECCCA81000BEC68 /* LinearCardAttributesTransition.swift */,
-				0E1276C81ECCCA8D000BEC68 /* CubeAttributesTransition.swift */,
-				0E1276CA1ECCCA9A000BEC68 /* CrossFadeAttributesTransition.swift */,
-				0E1276CC1ECCCAA8000BEC68 /* TurnAttributesTransition.swift */,
-				0E1276CE1ECCCAB2000BEC68 /* PageAttributesTransition.swift */,
+				0E2BF1F21ECD725800FA6C58 /* ParallaxAttributesTransition.swift */,
+				0E2BF1F41ECD726400FA6C58 /* ZoomInOutAttributesTransition.swift */,
+				0E2BF1F61ECD727400FA6C58 /* RotateInOutAttributesTransition.swift */,
+				0E2BF1F81ECD728500FA6C58 /* LinearCardAttributesTransition.swift */,
+				0E2BF1FA1ECD729000FA6C58 /* CubeAttributesTransition.swift */,
+				0E2BF1FC1ECD729A00FA6C58 /* CrossFadeAttributesTransition.swift */,
+				0E2BF1FE1ECD72B200FA6C58 /* TurnAttributesTransition.swift */,
+				0E2BF2001ECD72C200FA6C58 /* PageAttributesTransition.swift */,
 			);
-			path = Transitions;
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +179,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2BF1B11ECD674000FA6C58 /* Main.storyboard in Resources */,
 				0E1276AD1ECCC257000BEC68 /* LaunchScreen.storyboard in Resources */,
 				0E1276AA1ECCC257000BEC68 /* Assets.xcassets in Resources */,
-				0E1276A81ECCC257000BEC68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,18 +192,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1276C51ECCCA6B000BEC68 /* RotateInOutAttributesTransition.swift in Sources */,
-				0E1276C11ECCCA31000BEC68 /* ParallaxAttributesTransition.swift in Sources */,
-				0E1276BA1ECCC332000BEC68 /* MMCollectionViewFlowLayout.swift in Sources */,
-				0E1276CB1ECCCA9A000BEC68 /* CrossFadeAttributesTransition.swift in Sources */,
-				0E1276CD1ECCCAA8000BEC68 /* TurnAttributesTransition.swift in Sources */,
-				0E1276CF1ECCCAB2000BEC68 /* PageAttributesTransition.swift in Sources */,
-				0E1276C71ECCCA81000BEC68 /* LinearCardAttributesTransition.swift in Sources */,
-				0E1276B81ECCC2C9000BEC68 /* MMLayoutProtocol.swift in Sources */,
-				0E1276BC1ECCC406000BEC68 /* MMCollectionViewLayoutAttributes.swift in Sources */,
+				0E2BF1EF1ECD723100FA6C58 /* MMCollectionViewFlowLayout.swift in Sources */,
+				0E2BF1B51ECD67AD00FA6C58 /* ImageCollectionViewController.swift in Sources */,
+				0E2BF1EA1ECD704E00FA6C58 /* UIView+Anchor.swift in Sources */,
+				0E2BF1F51ECD726400FA6C58 /* ZoomInOutAttributesTransition.swift in Sources */,
+				0E2BF1EC1ECD722800FA6C58 /* MMLayoutProtocol.swift in Sources */,
+				0E2BF1F31ECD725800FA6C58 /* ParallaxAttributesTransition.swift in Sources */,
+				0E2BF1F71ECD727400FA6C58 /* RotateInOutAttributesTransition.swift in Sources */,
+				0E2BF1F91ECD728500FA6C58 /* LinearCardAttributesTransition.swift in Sources */,
 				0E1276A51ECCC257000BEC68 /* ViewController.swift in Sources */,
-				0E1276C31ECCCA5E000BEC68 /* ZoomInOutAttributesTransition.swift in Sources */,
-				0E1276C91ECCCA8D000BEC68 /* CubeAttributesTransition.swift in Sources */,
+				0E2BF1F01ECD723100FA6C58 /* MMCollectionViewLayoutAttributes.swift in Sources */,
+				0E2BF1FF1ECD72B200FA6C58 /* TurnAttributesTransition.swift in Sources */,
+				0E2BF1FD1ECD729A00FA6C58 /* CrossFadeAttributesTransition.swift in Sources */,
+				0E2BF1FB1ECD729000FA6C58 /* CubeAttributesTransition.swift in Sources */,
+				0E2BF2011ECD72C200FA6C58 /* PageAttributesTransition.swift in Sources */,
 				0E1276A31ECCC257000BEC68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,14 +213,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0E1276A61ECCC257000BEC68 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E1276A71ECCC257000BEC68 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0E1276AB1ECCC257000BEC68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,6 +364,7 @@
 				0E1276B31ECCC257000BEC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

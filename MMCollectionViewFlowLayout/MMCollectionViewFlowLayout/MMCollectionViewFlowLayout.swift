@@ -28,6 +28,10 @@ public class MMCollectionViewFlowLayout: UICollectionViewFlowLayout {
         }
     }
     
+    override public func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
+        return true
+    }
+    
     private func transformLayoutAttributes(_ attributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
         guard let collectionView = self.collectionView, let a = attributes as? MMCollectionViewLayoutAttributes else {
             return attributes
